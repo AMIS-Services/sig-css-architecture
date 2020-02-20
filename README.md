@@ -5,7 +5,7 @@ The slides are available in this folder, in case you need a refresher.
 The most important part of this exercise is being able to identify the general layout and components, and structure your css around that.
 So your recreation does not need to be pixel perfect or look exactly the same as the original.
 In case you are stuck or need some inspiration, we have provided some examples for each methodology in the examples folder.
-Base styles will also be provided, so you don't need to worry about that.
+A reset is provided, so it will mostly look the same on every browser.
 
 If you are ready, pick a methodology you would like to try and move on to the next section.
 
@@ -20,16 +20,17 @@ If you are ready, pick a methodology you would like to try and move on to the ne
 - Open up the html5up-future-imperfect folder
 - Open index.html in your browser
 - This is the site you will recreate the styling of, take a look at it and see if you can already identify layout sections and potential components
-- Aside for perhaps changing the class names, you won't need to make any major changes in the html itself. (You are allowed to, though)
+- Aside for perhaps changing the class names, you won't need to make any major changes in the html itself. (You are allowed to, of course!)
 
 #### 2. Layout
 Let's start off with a blank slate and then apply the layout styles
-- Ceate a new css file. Here you will add all your new css based on your chosen methodology.
+- Create a new css file. Here you will add all your new css based on your chosen methodology.
 - In the html, comment the `<link rel="stylesheet" href="assets/css/main.css" />` line and add a link to your css.
 - You can always switch between the two in case you need look at the original for reference. 
 - To make it a little less confusing, comment out the whole menu section
 - Identify the layouts and apply them to your css
 - Hint: you can temporarily add borders and background-colors to your sections for a better visual representation of your layout
+- Hint hint: Comment more components if it cause confusion to identify the layout
 
 #### 3. Components
 If you are satisfied with the setup of your layouts, let's move on to creating components
@@ -46,5 +47,6 @@ If you are satisfied with the setup of your layouts, let's move on to creating c
 - If your components are implemented correctly, you may need not even need to do much for this section ;>
 
 #### 5. Extra
+- Make it responsive
 - Add animations
 - Add theming
