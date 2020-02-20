@@ -52,13 +52,13 @@
 				event.preventDefault();
 
 				// Not visible?
-					if (!$search.hasClass('visible')) {
+					if (!$search.hasClass('is-visible')) {
 
 						// Reset form.
 							$search[0].reset();
 
 						// Show.
-							$search.addClass('visible');
+							$search.addClass('is-visible');
 
 						// Focus input.
 							$search_input.focus();
@@ -76,7 +76,7 @@
 			})
 			.on('blur', function() {
 				window.setTimeout(function() {
-					$search.removeClass('visible');
+					$search.removeClass('is-visible');
 				}, 100);
 			});
 
